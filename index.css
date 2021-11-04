@@ -1,0 +1,92 @@
+:root {
+  /* font sizes */
+
+  /* font-families*/
+
+  /*color*/
+  --color-primary-pale: hsl(225, 100%, 94%);
+  --color-primary-bright: hsl(245, 75%, 52%);
+
+  --color-neutral-pale: hsl(225, 100%, 98%);
+  --color-neutral-desaturated: hsl(224, 23%, 55%);
+  --color-neutral-dark: hsl(223, 47%, 23%);
+}
+
+/* Reset               */
+/* ------------------- */
+
+/* https://piccalil.li/blog/a-modern-css-reset/ */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: #000;
+}
+/*reset font*/
+html {
+  font-size: 62.5%;
+}
+/* set up the body */
+body {
+  font-family: var(--ff-sans-normal);
+  font-size: 1.6rem;
+  color: var(--color-neutral-desaturated);
+  background-color: var(--color-primary-pale);
+  line-height: 1.5;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+/* make images easier to work with */
+img,
+picutre {
+  max-width: 100%;
+  display: block;
+}
+
+.summary-card {
+  max-width: 100;
+  background-color: #fff;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-banner {
+  height: 22rem;
+  background-image: url(images/illustration-hero.svg);
+  background-position: top;
+}
+
+.content {
+  padding-top: 2em;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+h2.card-title {
+  font-size: 2.4rem;
+}
